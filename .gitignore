@@ -1,0 +1,38 @@
+# Flutter / Dart
+**/abasto-front/.dart_tool/
+**/abasto-front/.flutter-plugins
+**/abasto-front/.flutter-plugins-dependencies
+**/abasto-front/.packages
+**/abasto-front/build/
+**/abasto-front/pubspec.lock
+
+# Generated files (keep .g.dart only for committed state)
+# If you prefer to not commit generated files, uncomment:
+# **/*.g.dart
+# **/*.freezed.dart
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Android
+**/android/local.properties
+**/android/key.properties
+**/android/**/.gradle/
+**/android/app/debug/
+**/android/app/release/
+
+# iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+
+# Backend (future Firebase config)
+abasto-back/**/*.json
+!abasto-back/README.md
